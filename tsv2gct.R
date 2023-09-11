@@ -12,9 +12,9 @@ tsv2gct<-function(tbl,file_name) {
     # first line of gct is version comment must be "#1.2"
     # second line is rows, cols (data cols)
     #
-    write.table("#1.2", file_name, quote=F, col.name=F, row.name=F)
-    write.table(line2, file_name, quote=F, col.name=F, row.name=F, append=T)
-    write.table(gct_tbl, file_name, quote=F, row.name=F, append=T)
+    write.table("#1.2", file_name, quote=F, col.name=F, row.name=F, sep="\t")
+    write.table(line2, file_name, quote=F, col.name=F, row.name=F, append=T, sep="\t")
+    write.table(gct_tbl, file_name, quote=F, row.name=F, append=T, sep="\t")
 
 }
 
