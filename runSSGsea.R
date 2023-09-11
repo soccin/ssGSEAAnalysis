@@ -8,11 +8,6 @@ tsv2gct(dd,GCT_FILE)
 
 require(ssgsea.GBM.classification)
 
-#
-# Do not run by default
-#
-num_perm=10
-if(0) {
-    runSsGSEAwithPermutation(GCT_FILE,num_perm)
-}
+num_perm=100
+runSsGSEAwithPermutation(GCT_FILE,num_perm)
 
