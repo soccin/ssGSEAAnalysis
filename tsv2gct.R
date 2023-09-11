@@ -14,7 +14,7 @@ tsv2gct<-function(tbl,file_name) {
     #
     write.table("#1.2", file_name, quote=F, col.name=F, row.name=F)
     write.table(line2, file_name, quote=F, col.name=F, row.name=F, append=T)
-    write.table(gct_tbl, file_name, quote=F, col.name=F, row.name=F, append=T)
+    write.table(gct_tbl, file_name, quote=F, row.name=F, append=T)
 
 }
 
