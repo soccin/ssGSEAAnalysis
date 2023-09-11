@@ -20,3 +20,10 @@ Other required R packages I need to install:
 - MCMCpack
 - Matrix (version >= 1.6) (note this does not install easily on ARM Macs)
 
+## TIMING
+
+- 10,000 36.88secs
+- 100,000 22m3.244s
+- 1,000,000
+
+From paper `>=1,00,000`

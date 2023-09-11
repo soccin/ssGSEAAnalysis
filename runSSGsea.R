@@ -8,6 +8,6 @@ tsv2gct(dd,GCT_FILE)
 
 require(ssgsea.GBM.classification)
 
-num_perm=100
+num_perm=1000000
 runSsGSEAwithPermutation(GCT_FILE,num_perm)
 
