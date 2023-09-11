@@ -12,3 +12,11 @@ You need to install the R package `ssgsea.GBM.classification` included in this r
 R CMD INSTALL ssgsea.GBM.classification
 ```
 
+Other required R packages I need to install:
+
+- gtools
+- verification
+- ROCR
+- MCMCpack
+- Matrix (version >= 1.6) (note this does not install easily on ARM Macs)
+
