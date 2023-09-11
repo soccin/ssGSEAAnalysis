@@ -1,3 +1,4 @@
+suppressPackageStartupMessages({library(dplyr)})
 tsv2gct<-function(tbl,file_name) {
 
     line2 <- paste(nrow(tbl),ncol(tbl)-1,sep='\t')
